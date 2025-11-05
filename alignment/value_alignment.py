@@ -4,6 +4,7 @@
 
 from typing import Dict, List, Any
 import json
+import re
 
 class ValueAlignmentSystem:
     """价值观对齐系统"""

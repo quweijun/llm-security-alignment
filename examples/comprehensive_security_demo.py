@@ -51,7 +51,7 @@ def comprehensive_security_demo():
     
     for text in test_texts:
         filter_result = safety_filter.filter_response(text)
-        bias_result = bias_detector.detect_text_bias(text)
+        bias_result = bias_detector.detect_bias(text)
         
         print(f"输入: {text}")
         print(f"  安全过滤: {filter_result['action']}")

@@ -20,7 +20,7 @@ def red_teaming_demo():
     print("生成测试提示...")
     
     # 生成各类型测试提示
-    categories = ['jailbreak', 'misinformation', 'harmful_advice', 'biased_content', 'privacy_violation']
+    categories = ['jailbreak', 'misinformation', 'harmful_advice', 'biased', 'privacy']
     
     for category in categories:
         print(f"\n{category.upper()} 类别测试提示:")

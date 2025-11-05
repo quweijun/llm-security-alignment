@@ -70,7 +70,7 @@ def safety_filter_demo():
         print(f"过滤后: {filter_result['filtered_text']}")
         
         # 偏见检测
-        bias_result = bias_detector.detect_text_bias(text)
+        bias_result = bias_detector.detect_bias(text)
         if bias_result['has_bias']:
             print(f"偏见检测: 发现{bias_result['bias_categories']}类偏见")
 
